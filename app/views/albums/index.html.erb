@@ -1,0 +1,17 @@
+<h1>All Albums, All the Time</h1>
+
+<%= link_to 'Add New Album?', new_album_path %>
+
+<ul>
+  <% @albums.each do |a| %>
+    <li>
+      <%= a.title %>
+      -
+      <%= a.artist %>
+    </li>
+    <li>
+      <%= link_to 'Show', album_path(a) %>
+    </li>
+    </li>
+  <% end %>
+</ul>

@@ -1,4 +1,4 @@
-class AlbumController < ApplicationController
+class AlbumsController < ApplicationController
 
   def index
     @albums = Album.all
