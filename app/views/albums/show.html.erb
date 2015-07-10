@@ -2,15 +2,18 @@
 
 <ul>
   <li>
-    <%= :title %>
+    <%= @album.title %>
     -
-    <%= :artist %>
+    <%= @album.artist %>
     -
-  <!-- </li>
-  <li> -->
-    <%= link_to 'Edit', edit_album_path %>
+    <%= @album.genre %>
+    -
+    <%= @album.length %>
+  
+    <%= link_to 'Edit', edit_album_path(@album.id) %>
+    -
+    <%= link_to 'Delete',  @album,  method: :delete, data: { confirm: 'Are you sure?' } %>
+
   </li>
-  <li>
-    <%= link_to 'Delete', @album.delete %>
-  </li>
+
 </ul>
