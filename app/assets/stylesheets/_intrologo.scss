@@ -1,0 +1,21 @@
+.intro__logo {
+  display: block;
+  margin: 20px auto;
+  font-size: 10em;
+  text-align: center;
+  vertical-align: middle;
+  > a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+      background-color: #FFFFFF;
+    }
+  }
+}
+.fa-border {
+  margin: 20px auto;
+}
+.intro__page {
+  font-size: .5em;
+  text-align: center;
+}

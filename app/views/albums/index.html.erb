@@ -1,6 +1,6 @@
 <h1>All Albums, All the Time</h1>
-
-<ul>
+<%= link_to 'Would you like to add a new album?', new_album_path %>
+<ul class="lists">
   <% @albums.each do |a| %>
     <li>
       <%= a.title %>
@@ -13,5 +13,3 @@
     </li>
   <% end %>
 </ul>
-
-<%= link_to 'Would you like to add a new album?', new_album_path %>
