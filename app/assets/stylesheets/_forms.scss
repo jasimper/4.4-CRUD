@@ -1,0 +1,18 @@
+input,
+textarea {
+  font-size: 16px;
+}
+
+input[type="text"],
+input[type="submit"],
+textarea {
+  margin-bottom: 24px;
+  display: block;
+}
+
+input[type="text"],
+textarea {
+  padding: 10px;
+  width: 40%;
+  box-sizing: border-box;
+}
