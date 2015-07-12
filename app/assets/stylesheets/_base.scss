@@ -14,7 +14,7 @@ body {
   max-width: 800px;
   min-height: 100%;
   font-size: 20px;
-  font-family: "Open sans", sans-serif;
+  font-family: "Open sans", Helvetica, Arial, sans-serif;
 }
 h1 {
   color: #666666;
@@ -27,4 +27,11 @@ h1 {
 }
 .main {
   padding-bottom: 50px;
+}
+a {
+  color: #4D4D4D;
+  &:hover {
+    background-color: #E6E6E6;
+    color: #000000;
+  }
 }
