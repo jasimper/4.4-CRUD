@@ -11,7 +11,7 @@ class AlbumsController < ApplicationController
   def create
     @album = Album.new(album_params)
     if @album.save
-      redirect_to albums_path
+      redirect_to @album
     else
       render :new
    end
@@ -28,7 +28,7 @@ class AlbumsController < ApplicationController
   def update
     @album = get_album
       if @album.update_attributes(album_params)
-        redirect_to albums_path
+        redirect_to @album
       else
         render :edit
       end
