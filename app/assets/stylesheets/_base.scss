@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  overflow: hidden;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  max-width: 1200px;
+  height: 100%;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  font-size: 20px;
+  font-family: "Open sans", Helvetica, Arial, sans-serif;
+}
+h1 {
+  color: #666666;
+  font-size: 1.8em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.container {
+  display: table;
+  height: 100%;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.main {
+  margin: 10px auto;
+  height: 100%;
+  max-width: 80%;
+}
+a {
+  color: #4D4D4D;
+  &:hover {
+    background-color: #E6E6E6;
+    color: #000000;
+  }
+}

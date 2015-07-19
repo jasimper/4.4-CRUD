@@ -1,0 +1,11 @@
+one:
+  title: Test Album
+  artist: Test Artist
+  genre: test genre
+  length: 123
+
+two:
+  title: Test Album2
+  artist: Test Artist
+  genre: test genre
+  length: 23
